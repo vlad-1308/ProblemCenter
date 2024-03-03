@@ -64,8 +64,7 @@ public class ProblemCenterApiTest {
             .andExpect(status().isOk())
             .andExpect(content().json("{" //проверка содержимого ответа
                                       + "  \"response\": {"
-                                      + "    \"text\": \"Привет! "
-                                      + "Я помогу вам узнать о доступности связи в Ленинградской области.\","
+                                      + "    \"text\": \"Hi i can help you\","
                                       + "    \"end_session\": false"
                                       + "  },"
                                       + "  \"version\": \"1.0\""
